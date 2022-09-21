@@ -1,0 +1,18 @@
+{
+    "name": "admin/ancomthoi-api",
+    "autoload": {
+        "psr-4": {
+            "Admin\\AncomthoiApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nam",
+            "email": "vuongnam1009@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "firebase/php-jwt": "^6.3"
+    }
+}
